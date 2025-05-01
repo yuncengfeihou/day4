@@ -1,8 +1,7 @@
 // 文件: public/extensions/third-party/day4/index.js
 
 import { extension_settings, loadExtensionSettings, getContext, renderExtensionTemplateAsync } from '../../../extensions.js';
-// 确保这些导入路径是正确的
-import { saveSettingsDebounced, eventSource, event_types, mainApi, power_user } from '../../../../script.js';
+import { saveSettingsDebounced, eventSource, event_types } from '../../../../script.js';
 import { getTokenCountAsync } from '../../../tokenizers.js';
 
 
